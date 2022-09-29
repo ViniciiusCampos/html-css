@@ -1,0 +1,30 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cordefundo: #7575d3c7;
+    --cordostitulos: #3f3fe7c6;
+    --cordostextos: #5c5cc78b;
+}
+body {
+    background-color: var(--cordefundo);
+    
+}
+main {
+    border-radius: 20px;
+    min-width:320px;
+    max-width:1000px;
+    margin: auto;
+    background-color: white;
+}
+h1 {
+    background-color: var(--cordostitulos);
+}
+h2 {
+    background-color: var(--cordostitulos);
+}
+p {
+    background-color: var(--cordostextos);
+}

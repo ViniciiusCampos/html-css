@@ -1,0 +1,28 @@
+div {
+    display: inline-block;
+    background-color: rgb(201, 231, 231);
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+
+}
+ .p:hover { 
+background-color: brown;
+}
+.s:hover {
+    background-color: coral;
+}
+.t:hover {
+    background-color: darkkhaki;
+    
+}
+.escondido > p {
+    display: none;
+}
+.escondido:hover > p {
+    display: block;
+    color: blue;
+    background-color: aquamarine;
+    
+}
